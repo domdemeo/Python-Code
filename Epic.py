@@ -15,3 +15,24 @@ def userFloot(Prompt):
     print Prompt,
     F = raw_input()
     return F
+    
+def ReadTemps():
+    file = open('temps.txt') 
+    temps = []
+    for line in file:
+        line = line.strip() 
+        line = float(line) 
+        temps.append(line) 
+    return temps
+
+def calavg(temps, start, stop):
+    total = 0 
+    for i in range(start, stop):
+        total = total + temps[i]
+    avg = total/stop
+    print avg
+    
+    
+    
+    
+    
