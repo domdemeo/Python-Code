@@ -36,5 +36,7 @@ def askUser(d):
 
 def main():
     askUser(countBirds("birds.txt"))
+    
+    
      
 main()
