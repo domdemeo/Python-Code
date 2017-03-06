@@ -34,5 +34,3 @@ def calavg(temps, start, stop):
     
     
     
-    
-    
