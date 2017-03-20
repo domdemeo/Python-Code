@@ -1,6 +1,14 @@
 import Epic
 import random
 
+Choices= ['bird','dog','snake','fish','cat','mouse','starfish','woodchuck','crab']          #assigns cards and values related to cards 0 to 9
+
+def ShuffleArray(Array):
+    RandomCard = random.randint(0,9)
+    NewArray = Array[RandomCard]                 #creates new array and then shuffles it randomly 
+    Array.append(NewArray)
+    random.shuffle(Array)
+
 def Choose(Card1, Card2, Choices):
     CardChoice = {'Run': True, 'Response': ""}                                                                 # Only allows you to pick cards between 0 to 9 and will not allow you to continue with out it 
     
@@ -12,14 +20,6 @@ def Choose(Card1, Card2, Choices):
         if Choices[Card1] == Choices[Card2]:                                                                                #adds both cards and card choices 
             CardChoice['Run'] = False
     return CardChoice
-
-Choices= ['bird','dog','snake','fish','cat','mouse','starfish','woodchuck','crab']          #assigns cards and values related to cards 0 to 9
-
-def ShuffleArray(Array):
-    RandomCard = random.randint(0,9)
-    NewArray = Array[RandomCard]                 #creates new array and then shuffles it randomly 
-    Array.append(NewArray)
-    random.shuffle(Array)
 
 def main():
     Wins = 0
