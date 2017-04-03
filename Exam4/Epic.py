@@ -2,7 +2,7 @@ def userInt(Prompt):
     print Prompt,
     N = int(raw_input())
     return N
-
+  
 def userString(Prompt):
     print Prompt,
     S = raw_input()
