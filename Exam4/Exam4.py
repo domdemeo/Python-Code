@@ -15,7 +15,7 @@ def ReadFiles():                    #reads in files and contents them capatizes 
         for line in CapFile:
             CapLine.append(line.strip().upper())
         FileContentsFinal[f] = CapLine
-    
+
     return FileContentsFinal
 
 def SearchFiles(Word, FileContentsFinal):

@@ -1,0 +1,7 @@
+[
+{"Professor" : "Mark Cohen", "Class" : ["Into to Computer Science"], "Time" : "MWF 9-10am ", "Location" : "Bowman Hall 101"},
+{"Professor" : "Mike Dalton", "Class" : ["Digital Curcuits"], "Time" : "Tuesday-Thurday 5-7pm", "Location" : "Bowman Hall 102"},
+{"Professor" : "David Eve", "Class" : ["Computer Triage"], "Time" : "Monday 8-9am", "Location" : "Bowman Hall 103"},
+{"Professor" : "Mike Dalton", "Class" : ["Roboptics Development"], "Time" : "Firdays 4-7pm", "Location" : "Bowman Hall 104"},
+{"Professor" : "Mark Cohen", "Class" : ["Programing in C++"], "Time" : "Thurday 2-4pm", "Location" : "Bowman Hall 105"}
+]
