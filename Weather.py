@@ -17,7 +17,6 @@ def Print(ApixuData):
         print "The weather in %s, %s is Currently" % (ApixuData['location']['name'],ApixuData['location']['region'])
         print "%s and the Tempture is Currently %s degrees (F)." % (ApixuData['current']['condition']['text'],ApixuData['current']['temp_f'])
         print "It actually feels like it is %s (F)." % ApixuData['current']['feelslike_f']
-        print " "
 
         return Print
         
